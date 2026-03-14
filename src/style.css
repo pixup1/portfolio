@@ -1,0 +1,10 @@
+:root {
+  --bg: #101018;
+  --text: #d0dce7;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+}
