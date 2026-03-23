@@ -1,0 +1,260 @@
+{
+  "it_projects": [
+    {
+      "name": "Cacabake",
+      "type": "personal",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/InsaLan/cacabake",
+      "description": "Application pour jouer des vidéos pré-rendues dans un terminal",
+      "long_description": "Cacabake est une application terminal qui peut pré-calculer des vidéos dans un format de texte pré-rendu grace à libcaca. Elle peut ensuite lire ces vidéos dans un terminal sans aucun coût de performance associé au décodage vidéo. Elle a été créée pour afficher des animations sur les serveurs de l'InsaLan sans compromettre les performances.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "BMC",
+      "type": "personal",
+      "year_start": 2025,
+      "year_end": 2025,
+      "link": "https://github.com/pixup1/BMC-App",
+      "description": "Application Android permettant de contrôler un objet virtuel dans Blender à l'aide de capteurs de mouvement",
+      "long_description": "Blender Motion Control est une application Android qui utilise les capteurs de mouvement d'un smartphone pour contrôler un objet dans le logicicel de modélisation 3D Blender. Une mise à jour implémentant le support de ARCore pour un suivi de mouvement plus précis était prévue, mais est actuellement en pause.",
+      "technologies": ["kotlin", "cpp", "python"]
+    },
+    {
+      "name": "Big",
+      "type": "personal",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/pixup1/big",
+      "description": "Application de terminal pour afficher du texte en grand avec divers effets",
+      "long_description": "Big est une application de terminal qui peut afficher du texte en grand avec différents effets, dans différents modes d'affichages et à différentes vitesses. Elle a une interface de ligne de commande assez complète avec de nombreuses options.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "FlutterInk",
+      "type": "academic",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://flutterink.hver.net",
+      "description": "Portage d'une application de prise de notes en Flutter",
+      "long_description": "Lors de ce projet réalisé en quatrième année à l'INSA, nous avons porté une application de prise de notes écrite en C# vers Flutter. J'ai aussi mis à jour et renforcé la sécurité du serveur écrit en NodeJS. Enfin, j'ai créé une interface web de gestion de la base de données en Nuxt.",
+      "technologies": ["flutter", "nodejs", "nuxt"]
+    },
+    {
+      "name": "Portfolio",
+      "type": "personal",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/pixup1/portfolio",
+      "description": "Le site sur lequel vous êtes actuellement",
+      "long_description": "Ce portfolio présente mes projets et compétences, à la fois en programmation et an modélisation/animation 3D.",
+      "technologies": ["vuejs", "html", "css"]
+    },
+    {
+      "name": "Langate 3000",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/langate3000",
+      "description": "Portail captif pour le réseau de l'InsaLan",
+      "long_description": "La Langate 3000 est une réécriture complète du portail captif de l'InsaLan. Elle a pour but de permettre aux joueurs de se connecter au réseau par une interface web. Je me suis principalement occupé de Netcontrol, l'API (FastAPI Python) de gestion des connexions réseau, qui interface avec le pare-feu du routeur via nftables.",
+      "technologies": ["django", "vuejs", "python", "html", "css", "tailwind"]
+    },
+    {
+      "name": "insalan.fr",
+      "type": "community",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/infra-insalan.fr",
+      "description": "Site web de l'InsaLan",
+      "long_description": "Le site web de l'InsaLan, qui présente l'association, permet aux joueurs de s'inscrire à l'événement, et a des outils pour gérer les tournois. J'ai principalement travaillé sur le front-end du site, que j'ai passé de Tailwind CSS au CSS pur en même temps que j'ai refait le design.",
+      "technologies": ["django", "vuejs", "html", "css"]
+    },
+    {
+      "name": "TMT2",
+      "type": "community",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/tmt2",
+      "description": "Application web de gestion de tournois Counter-Strike 2",
+      "long_description": "Tournament Match Tracker 2 est une interface web permettant de gérer des tournois de Counter Strike 2 dont l'InsaLan se sert. Nous y avons ajouté la capacité de suivre les statistiques des joueurs, et je me suis surout occupé du frontend associé à cette fonctionnalité.",
+      "technologies": ["typescript", "solidjs", "html", "tailwind"]
+    },
+    {
+      "name": "Taquin",
+      "type": "academic",
+      "year_start": 2025,
+      "year_end": 2025,
+      "description": "Jeu de taquin en Angular",
+      "long_description": "Ce projet de jeu de taquin a été réalisé à l'occasion du projet de Web 2 en 4ème année à l'INSA Rennes. Il comprend aussi un backend rudimentaire en Spring Boot.",
+      "technologies": ["angular", "java"]
+    },
+    {
+      "name": "My Games List",
+      "type": "academic",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/iwen29/INSA_MyGamesList_20252026",
+      "description": "Application de démonstration listant les jeux vidéo d'une base de données",
+      "long_description": "Cette application Android a été réalisée avec Jetpack Compose dans le cadre du module d'ouvertue de Programmation Mobile de 4ème année à l'INSA Rennes. Elle liste les jeux d'une base de données, permettant de les filtrer et de les afficher de différentes façons.",
+      "technologies": ["kotlin"]
+    },
+    {
+      "name": "mPNGp",
+      "type": "academic",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/pixup1/mPNGp",
+      "description": "Parseur de fichiers MiniPNG",
+      "long_description": "Ce projet de parseur de fichiers MiniPNG a été réalisé dans le cadre du cours de Programmation Sécurisée de 4ème année à l'INSA Rennes.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "RGBaie",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2026,
+      "description": "Système de diagnostic réseau utilisant une bande LED",
+      "long_description": "La RGBaie est un projet de monitoring réseau par bande LED de l'InsaLan. Elle permet de diagnostiquer des problèmes courants du réseau tels qu'une absence de connexion internet, un problème de communication avec des VPNs, le statut de certains composants logiciels... Tout cela par un langage simple de bandes colorées. Le projet se compose d'un code Arduino pour une carte ESP32 qui contrôle la bande LED, et d'un contrôleur Python qui fait les diagnostics et communique avec l'ESP32.",
+      "technologies": ["cpp", "python"]
+    },
+    {
+      "name": "Plans switches",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2024,
+      "description": "Template Typst avancé et flexible permettant de réaliser des plans de switches réseau facilement",
+      "long_description": "Ce projet a été réalisé pour permettre aux responsables réseau de l'InsaLan de facilement réaliser des beaux plans de switches réseau pour s'organiser.",
+      "technologies": ["typst"]
+    },
+    {
+      "name": "Script switches",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/InsaLan/switchs",
+      "description": "Script Python pour configurer plusieurs switches réseau automatiquement via Telnet",
+      "long_description": "Ce projet consiste en un ensemble de scripts Python qui permettent de configurer plusieurs switches réseau de l'InsaLan automatiquement via Telnet. J'ai participé notamment à un petit refactoring et j'ai ajouté un script pour configurer des switches de la marque Brocade.",
+      "technologies": ["python"]
+    },
+    {
+      "name": "Scripts réseau",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2025,
+      "description": "Scripts de configuration pour le réseau et le pare-feu de l'InsaLan",
+      "long_description": "Cet ensemble de scripts permet de définir les interfaces réseau et les règles de pare-feu nftables de l'InsaLan. J'ai écrit plusieurs de ces scripts, notamment ceux ayant pour but de diriger le trafic réseau vers les différents upstreams de l'InsaLan et ceux permettant de bloquer l'accès à certains sites web. J'ai aussi écrit un script Python qui affiche différentes informations sur les baux DHCP actifs sur la tête de réseau.",
+      "technologies": ["bash", "python"]
+    }
+  ],
+  "technos": [
+    {
+      "id": "rust",
+      "name": "Rust",
+      "description": "Langage de programmation système moderne, rapide et sécurisé",
+      "icon": "<svg viewBox=\"0 0 128 128\"><path fill=\"#f2bc8c\" d=\"M62.96.242c-.232.135-1.203 1.528-2.16 3.097-2.4 3.94-2.426 3.942-5.65.55-2.098-2.208-2.605-2.612-3.28-2.607-.44.002-.995.152-1.235.332-.24.18-.916 1.612-1.504 3.183-1.346 3.6-1.41 3.715-2.156 3.86-.46.086-1.343-.407-3.463-1.929-1.565-1.125-3.1-2.045-3.411-2.045-1.291 0-1.655.706-2.27 4.4-.78 4.697-.754 4.681-4.988 2.758-1.71-.776-3.33-1.41-3.603-1.41-.274 0-.792.293-1.15.652-.652.652-.653.655-.475 4.246l.178 3.595-.68.364c-.602.322-1.017.283-3.684-.348-3.48-.822-4.216-.8-4.92.15l-.516.693.692 2.964c.38 1.63.745 3.2.814 3.487.067.287-.05.746-.26 1.02-.348.448-.717.49-3.94.44-5.452-.086-5.761.382-3.51 5.3.718 1.56 1.305 2.98 1.305 3.15 0 .898-.717 1.224-3.794 1.727-1.722.28-3.218.51-3.326.51-.107 0-.43.235-.717.522-.937.936-.671 1.816 1.453 4.814 2.646 3.735 2.642 3.75-1.73 5.421-4.971 1.902-5.072 2.37-1.287 5.96 3.525 3.344 3.53 3.295-.461 5.804C.208 62.8.162 62.846.085 63.876c-.093 1.253-.071 1.275 3.538 3.48 3.57 2.18 3.57 2.246.067 5.56C-.078 76.48.038 77 5.013 78.877c4.347 1.64 4.353 1.66 1.702 5.394-1.502 2.117-1.981 3-1.981 3.653 0 1.223.637 1.535 4.44 2.174 3.206.54 3.92.857 3.92 1.741 0 .182-.588 1.612-1.307 3.177-2.236 4.87-1.981 5.275 3.31 5.275 4.93 0 4.799-.15 3.737 4.294-.8 3.35-.813 3.992-.088 4.715.554.556 1.6.494 4.87-.289 2.499-.596 2.937-.637 3.516-.328l.66.354-.177 3.594c-.178 3.593-.177 3.595.475 4.248.358.36.884.652 1.165.652.282 0 1.903-.63 3.604-1.404 4.22-1.916 4.194-1.932 4.973 2.75.617 3.711.977 4.4 2.294 4.4.327 0 1.83-.88 3.34-1.958 2.654-1.893 3.342-2.19 4.049-1.74.182.115.89 1.67 1.572 3.455 1.003 2.625 1.37 3.31 1.929 3.576 1.062.51 1.72.1 4.218-2.62 3.016-3.286 3.14-3.27 5.602.72 2.72 4.406 3.424 4.396 6.212-.089 2.402-3.864 2.374-3.862 5.621-.47 2.157 2.25 2.616 2.61 3.343 2.61.464 0 1.019-.175 1.23-.388.214-.213.92-1.786 1.568-3.496.649-1.71 1.321-3.2 1.495-3.31.687-.436 1.398-.13 4.048 1.752 1.56 1.108 3.028 1.96 3.377 1.96 1.296 0 1.764-.92 2.302-4.535.46-3.082.554-3.378 1.16-3.685.596-.302.954-.2 3.75 1.07 1.701.77 3.323 1.402 3.604 1.402.282 0 .816-.302 1.184-.672l.672-.67-.184-3.448c-.177-3.29-.16-3.468.364-3.943.54-.488.596-.486 3.615.204 3.656.835 4.338.857 5.025.17.671-.67.664-.818-.254-4.69-1.03-4.346-1.168-4.19 3.78-4.19 3.374 0 3.75-.049 4.18-.523.718-.793.547-1.702-.896-4.779-.729-1.55-1.32-2.96-1.315-3.135.024-.914.743-1.227 4.065-1.767 2.033-.329 3.553-.71 3.829-.96.923-.833.584-1.918-1.523-4.873-2.642-3.703-2.63-3.738 1.599-5.297 5.064-1.866 5.209-2.488 1.419-6.09-3.51-3.335-3.512-3.317.333-5.677 4.648-2.853 4.655-3.496.082-6.335-3.933-2.44-3.93-2.406-.405-5.753 3.78-3.593 3.678-4.063-1.295-5.965-4.388-1.679-4.402-1.72-1.735-5.38 1.588-2.18 1.982-2.903 1.982-3.65 0-1.306-.586-1.598-4.436-2.22-3.216-.52-3.924-.835-3.924-1.75 0-.174.588-1.574 1.307-3.113 1.406-3.013 1.604-4.22.808-4.94-.428-.387-1-.443-4.067-.392-3.208.054-3.618.008-4.063-.439-.486-.488-.48-.557.278-3.725.931-3.88.935-3.975.17-4.694-.777-.73-1.262-.718-4.826.121-2.597.612-3.027.653-3.617.337l-.67-.36.185-3.582.186-3.58-.67-.67c-.369-.37-.891-.67-1.163-.67-.27 0-1.884.64-3.583 1.421-2.838 1.306-3.143 1.393-3.757 1.072-.612-.32-.714-.637-1.237-3.829-.603-3.693-.977-4.412-2.288-4.412-.311 0-1.853.925-3.426 2.055-2.584 1.856-2.93 2.032-3.574 1.807-.533-.186-.843-.59-1.221-1.599-.28-.742-.817-2.172-1.194-3.177-.762-2.028-1.187-2.482-2.328-2.482-.637 0-1.213.458-3.28 2.604-3.25 3.375-3.261 3.374-5.65-.545C66.073 1.78 65.075.382 64.81.24c-.597-.32-1.3-.32-1.85.002m2.96 11.798c2.83 2.014 1.326 6.75-2.144 6.75-3.368 0-5.064-4.057-2.66-6.36 1.358-1.3 3.304-1.459 4.805-.39m-3.558 12.507c1.855.705 2.616.282 6.852-3.8l3.182-3.07 1.347.18c4.225.56 12.627 4.25 17.455 7.666 4.436 3.14 10.332 9.534 12.845 13.93l.537.942-2.38 5.364c-1.31 2.95-2.382 5.673-2.382 6.053 0 .878.576 2.267 1.13 2.726.234.195 2.457 1.265 4.939 2.378l4.51 2.025.178 1.148c.23 1.495.26 5.167.052 6.21l-.163.816h-2.575c-2.987 0-2.756-.267-2.918 3.396-.118 2.656-.76 4.124-2.22 5.075-2.377 1.551-6.304 1.27-7.97-.57-.255-.284-.752-1.705-1.105-3.16-1.03-4.254-2.413-6.64-5.193-8.965-.878-.733-1.595-1.418-1.595-1.522 0-.102.965-.915 2.145-1.803 4.298-3.24 6.77-7.012 7.04-10.747.519-7.126-5.158-13.767-13.602-15.92-2.002-.51-2.857-.526-27.624-.526-14.057 0-25.56-.092-25.56-.204 0-.263 3.125-3.295 4.965-4.816 5.054-4.178 11.618-7.465 18.417-9.22l2.35-.61 3.34 3.387c1.839 1.863 3.64 3.5 4.003 3.637M20.3 46.34c1.539 1.008 2.17 3.54 1.26 5.062-1.405 2.356-4.966 2.455-6.373.178-2.046-3.309 1.895-7.349 5.113-5.24m90.672.13c4.026 2.454.906 8.493-3.404 6.586-2.877-1.273-2.97-5.206-.155-6.64 1.174-.6 2.523-.579 3.56.053M32.163 61.5v15.02h-13.28l-.526-2.285c-1.036-4.5-1.472-9.156-1.211-12.969l.182-2.679 4.565-2.047c2.864-1.283 4.706-2.262 4.943-2.625 1.038-1.584.94-2.715-.518-5.933l-.68-1.502h6.523V61.5M70.39 47.132c2.843.74 4.345 2.245 4.349 4.355.002 1.55-.765 2.52-2.67 3.38-1.348.61-1.562.625-10.063.708l-8.686.084v-8.92h7.782c6.078 0 8.112.086 9.288.393m-2.934 21.554c1.41.392 3.076 1.616 3.93 2.888.898 1.337 1.423 3.076 2.667 8.836 1.05 4.87 1.727 6.46 3.62 8.532 2.345 2.566 1.8 2.466 13.514 2.466 5.61 0 10.198.09 10.198.2 0 .197-3.863 4.764-4.03 4.764-.048 0-2.066-.422-4.484-.939-6.829-1.458-7.075-1.287-8.642 6.032l-1.008 4.702-.91.448c-1.518.75-6.453 2.292-9.01 2.82-4.228.87-8.828 1.162-12.871.821-6.893-.585-16.02-3.259-16.377-4.8-.075-.327-.535-2.443-1.018-4.704-.485-2.26-1.074-4.404-1.31-4.764-1.13-1.724-2.318-1.83-7.547-.674-1.98.44-3.708.796-3.84.796-.248 0-3.923-4.249-3.923-4.535 0-.09 8.728-.194 19.396-.23l19.395-.066.07-6.89c.05-4.865-.018-6.997-.23-7.25-.234-.284-1.485-.358-6.011-.358H53.32v-8.36l6.597.001c3.626.002 7.02.12 7.539.264M37.57 100.02c3.084 1.88 1.605 6.804-2.043 6.8-3.74 0-5.127-4.88-1.94-6.826 1.055-.643 2.908-.63 3.983.026m56.48.206c1.512 1.108 2.015 3.413 1.079 4.95-2.46 4.034-8.612.827-6.557-3.419 1.01-2.085 3.695-2.837 5.478-1.53\"></path></svg>"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "description": "Langage de programmation moderne dérivé de Java",
+      "icon": "<svg viewBox=\"0 0 128 128\"><path fill=\"#ed8cf2\" d=\"M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0\"></path></svg>"
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "description": "Langage de programmation système puissant et performant",
+      "icon": "<svg viewBox=\"0 0 128 128\"><path fill=\"#8c9af2\" d=\"M63.443 0c-1.782 0-3.564.39-4.916 1.172L11.594 28.27C8.89 29.828 6.68 33.66 6.68 36.78v54.197c0 1.562.55 3.298 1.441 4.841l-.002.002c.89 1.543 2.123 2.89 3.475 3.672l46.931 27.094c2.703 1.562 7.13 1.562 9.832 0h.002l46.934-27.094c1.352-.78 2.582-2.129 3.473-3.672.89-1.543 1.441-3.28 1.441-4.843V36.779c0-1.557-.55-3.295-1.441-4.838v-.002c-.891-1.545-2.121-2.893-3.473-3.67L68.359 1.173C67.008.39 65.226 0 63.443 0zm.002 26.033c13.465 0 26.02 7.246 32.77 18.91l-16.38 9.479c-3.372-5.836-9.66-9.467-16.39-9.467-10.432 0-18.922 8.49-18.922 18.924S53.013 82.8 63.445 82.8c6.735 0 13.015-3.625 16.395-9.465l16.375 9.477c-6.746 11.662-19.305 18.91-32.77 18.91-20.867 0-37.843-16.977-37.843-37.844s16.976-37.844 37.843-37.844v-.002zM92.881 57.57h4.201v4.207h4.203v4.203h-4.203v4.207h-4.201V65.98h-4.207v-4.203h4.207V57.57zm15.765 0h4.208v4.207h4.203v4.203h-4.203v4.207h-4.208V65.98h-4.205v-4.203h4.205V57.57z\"></path></svg>"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "description": "Langage de programmation de haut niveau polyvalent",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cbff2\" d=\"M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z\"></path> </svg>"
+    },
+    {
+      "id": "nodejs",
+      "name": "NodeJS",
+      "description": "Environnement d'exécution JavaScript côté serveur",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#abf28c\" d=\"m64.36 0.005859c-1.045 0-2.091 0.2701-3.027 0.8125l-49.82 28.75 53.63 98.38c0.7789-0.1012 1.542-0.3539 2.244-0.7578l50.17-28.97c1.21-0.7006 2.114-1.787 2.607-3.049l-55.23-95.13c-0.1908-0.01819-0.3808-0.03711-0.5723-0.03711zm1.9 0.3203 35.65 61.39 16.86-31.02c-0.3597-0.3535-0.7631-0.6666-1.211-0.9258l-50.17-28.95c-0.3597-0.2085-0.7391-0.3638-1.125-0.4922zm-55.6 29.79c-1.566 1.133-2.518 2.949-2.518 4.9v57.95c0 1.292 0.4194 2.521 1.15 3.537l19.36-33.38-18-33.01zm108.8 1.408-16.97 31.21 18.03 31.06c0.03737-0.2716 0.05859-0.5456 0.05859-0.8242v-57.95c0-1.275-0.4097-2.488-1.123-3.496zm-90.25 32.63-19.23 33.15c0.3538 0.344 0.7477 0.6527 1.186 0.9062l50.16 28.97c0.8345 0.4788 1.753 0.7317 2.682 0.7852l-34.79-63.82z\"></path> </svg>"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "description": "Framework Dart pour le développement d'applications multiplateformes",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cdcf2\" d=\"M12.3 64.2L76.3 0h39.4L32.1 83.6zM76.3 128h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z\"></path> </svg>"
+    },
+    {
+      "id": "vuejs",
+      "name": "VueJS",
+      "description": "Framework JavaScript moderne pour la construction d'interfaces utilisateur",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path d=\"m 101.1118,10.035784 h 24.74119 L 63.999999,116.73467 2.1470081,10.035784 H 49.46702 L 63.999999,34.77698 78.226185,10.035784 Z\" style=\"fill:none;stroke:#8cf2ab;stroke-width:2.47412\" /> <path fill=\"#8cf2ab\" d=\"M 26.581413,10.035784 63.999999,74.362894 101.1118,10.035784 H 78.226185 L 63.999999,34.77698 49.46702,10.035784 Z\"/> </svg>"
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "description": "Langage de balisage standard pour la création de pages web",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#f2ab8c\" d=\"M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L118.968 2H9.032zm89.126 26.539l-.627 7.172L97.255 39H44.59l1.257 14h50.156l-.336 3.471-3.233 36.119-.238 2.27L64 102.609v.002l-.034.018-28.177-7.423L33.876 74h13.815l.979 10.919L63.957 89H64v-.546l15.355-3.875L80.959 67H33.261l-3.383-38.117L29.549 25h68.939l-.33 3.539z\"></path> </svg>"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "description": "Langage de style utilisé pour décrire la présentation d'un document HTML",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cb0f2\" d=\"M8.76 1l10.055 112.883 45.118 12.58 45.244-12.626L119.24 1H8.76zm89.591 25.862l-3.347 37.605.01.203-.014.467v-.004l-2.378 26.294-.262 2.336L64 101.607v.001l-.022.019-28.311-7.888L33.75 72h13.883l.985 11.054 15.386 4.17-.004.008v-.002l15.443-4.229L81.075 65H48.792l-.277-3.043-.631-7.129L47.553 51h34.749l1.264-14H30.64l-.277-3.041-.63-7.131L29.401 23h69.281l-.331 3.862z\"></path> </svg>"
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "description": "Framework web Python de haut niveau pour le développement backend",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cf293\" d=\"M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z\"></path><path path fill=\"#8cf293\" d=\"M113.672 32.321V80.84c0 16.717-1.224 24.735-4.893 31.666-3.398 6.661-7.883 10.873-17.124 15.494l-19.435-9.241c9.242-4.35 13.726-8.153 16.58-14 2.99-5.979 3.943-12.91 3.943-31.122V32.321zM92.742.111h20.93v21.474h-20.93z\"></path> </svg>"
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "description": "Framework CSS utilitaire pour la création rapide d'interfaces personnalisées",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path d=\"M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0\" fill=\"#8cc8f2\"></path> </svg>"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "description": "Superset du JavaScript ajoutant des types statiques",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8c9df2\" d=\"M2 63.91v62.5h125v-125H2zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1A23 23 0 0180 109.19c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73l4.6-2.64 3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H57.16v46.23H45.65V69.26H29.38v-5a49.19 49.19 0 01.14-5.16c.06-.08 10-.12 22-.1h21.81z\"></path> </svg>"
+    },
+    {
+      "id": "solidjs",
+      "name": "SolidJS",
+      "description": "Framework JavaScript réactif qui met l'accent sur la performance et la simplicité",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cbaf2\" d=\"M61.832 4.744c-3.205.058-6.37.395-9.45 1.07l-2.402.803c-4.806 1.603-8.813 4.005-11.216 7.21l-1.602 2.404-12.017 20.828.166.031c-4.785 5.823-5.007 14.07-.166 21.6 1.804 2.345 4.073 4.431 6.634 6.234l-15.445 4.982L.311 97.946s42.46 32.044 75.306 24.033l2.403-.801c5.322-1.565 9.292-4.48 11.683-8.068l.334.056 16.022-28.84c3.204-5.608 2.404-12.016-1.602-18.425a36.05 36.05 0 0 0-7.059-6.643l15.872-5.375 14.42-24.033S92.817 4.19 61.831 4.744z\"></path> </svg>"
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "description": "Framework JavaScript fait par Google mettant l'accent sur la scalabilité",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#f28ce3\" d=\"m78.36 0 41.77 89.9 4.34-68.57L78.36 0M38.87 94.47l-6.42 15.54L64 128l31.55-17.99-6.42-15.54H38.87M80.53 74.3 64 34.11 47.47 74.3h33.06m-77-52.97L7.87 89.9 49.64 0 3.53 21.33\"></path> </svg>"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "description": "Langage de programmation orienté objet polyvalent",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#f28c8c\" d=\"M47.617 98.12c-19.192 5.362 11.677 16.439 36.115 5.969-4.003-1.556-6.874-3.351-6.874-3.351-10.897 2.06-15.952 2.222-25.844 1.092-8.164-.935-3.397-3.71-3.397-3.71zm33.189-10.46c-14.444 2.779-22.787 2.69-33.354 1.6-8.171-.845-2.822-4.805-2.822-4.805-21.137 7.016 11.767 14.977 41.309 6.336-3.14-1.106-5.133-3.131-5.133-3.131zm11.319-60.575c.001 0-42.731 10.669-22.323 34.187 6.024 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.793 15.634-29.58zm9.998 81.144s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.095.171-4.45-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.952-3.487-32.013 6.85-13.742 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM85 77.896c2.395-1.634 5.703-3.053 5.703-3.053s-9.424 1.685-18.813 2.474c-11.494.964-23.823 1.154-30.012.326-14.652-1.959 8.033-7.348 8.033-7.348s-8.812-.596-19.644 4.644C17.455 81.134 61.958 83.958 85 77.896zm5.609 15.145c-.108.29-.468.616-.468.616 31.273-8.221 19.775-28.979 4.822-23.725-1.312.464-2 1.543-2 1.543s.829-.334 2.678-.72c7.559-1.575 18.389 10.119-5.032 22.286zM64.181 70.069c-4.614-10.429-20.26-19.553.007-35.559C89.459 14.563 76.492 1.587 76.492 1.587c5.23 20.608-18.451 26.833-26.999 39.667-5.821 8.745 2.857 18.142 14.688 28.815zm27.274 51.748c-19.187 3.612-42.854 3.191-56.887.874 0 0 2.874 2.38 17.646 3.331 22.476 1.437 57-.8 57.816-11.436.001 0-1.57 4.032-18.575 7.231z\"></path> </svg>"
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "description": "Framework VueJS pour le développement fullstack d'applications web",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cf2a7\" d=\"M71.679 106.667h47.359c1.514 0 2.962-.533 4.268-1.283 1.307-.75 2.66-1.688 3.415-2.986.755-1.298 1.279-2.769 1.279-4.264s-.524-2.971-1.279-4.268l-32-55.038c-.755-1.297-1.68-2.24-2.99-2.991-1.312-.751-3.18-1.279-4.695-1.279-1.514 0-2.957.533-4.263 1.279-1.307.746-2.232 1.693-2.987 2.991l-8.108 14.08-16.213-27.311c-.755-1.297-1.68-2.66-2.986-3.41-1.307-.75-2.755-.854-4.269-.854-1.514 0-2.957.104-4.264.854-1.306.75-2.66 2.113-3.415 3.41L.854 93.864C.099 95.161 0 96.634 0 98.134c0 1.499.099 2.966.854 4.263.754 1.297 2.103 2.24 3.415 2.986 1.311.747 2.754 1.284 4.264 1.284H38.4c11.835 0 20.449-5.31 26.453-15.364l14.505-25.17 7.678-13.226 23.468 40.104H79.359ZM37.97 93.01H17.066l31.147-53.76L64 66.134 53.543 84.361c-3.986 6.523-8.533 8.65-15.572 8.65zm0 0\"></path> </svg>"
+    },
+    {
+      "id": "typst",
+      "name": "Typst",
+      "description": "Langage de typesetting comparable à une version moderne de LateX",
+      "icon": "<svg viewBox=\"0 0 128 128\"><path fill=\"#8cf2ed\" d=\"M 0 0 L 0 128 L 128 128 L 128 0 L 0 0 z M 65.675781 27.921875 L 65.675781 42.488281 L 81.166016 41.296875 L 79.722656 49.902344 L 65.675781 49.373047 L 65.675781 81.683594 C 65.675781 85.03817 66.158416 87.287929 67.121094 88.435547 C 68.083743 89.583164 69.833271 90.158203 72.371094 90.158203 C 74.996633 90.158203 78.365281 88.833896 82.478516 86.185547 L 85.105469 90.554688 C 77.403927 96.999005 71.058689 100.2207 66.070312 100.2207 C 61.081936 100.2207 57.143863 99.029999 54.255859 96.646484 C 51.367854 94.174692 49.923828 89.849404 49.923828 83.669922 L 49.923828 48.976562 L 43.359375 48.976562 L 42.310547 44.076172 L 49.923828 41.693359 L 49.923828 35.205078 L 65.675781 27.921875 z \" /></svg>"
+    },
+    {
+      "id": "bash",
+      "name": "Bash",
+      "description": "Interpréteur de commandes et langage de script pour les systèmes Unix",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cf293\" d=\"M112.205 26.129 71.8 2.142A15.326 15.326 0 0 0 64.005 0c-2.688 0-5.386.717-7.796 2.152L15.795 26.14C10.976 28.999 8 34.289 8 40.018v47.975c0 5.729 2.967 11.019 7.796 13.878L56.2 125.858A15.193 15.193 0 0 0 63.995 128a15.32 15.32 0 0 0 7.796-2.142l40.414-23.987c4.819-2.86 7.796-8.16 7.796-13.878V40.007c0-5.718-2.967-11.019-7.796-13.878zm-31.29 74.907.063 3.448c0 .418-.267.889-.588 1.06l-2.046 1.178c-.321.16-.6-.032-.6-.45l-.032-3.394c-1.745.728-3.523.9-4.647.45-.214-.086-.31-.397-.225-.761l.739-3.116c.064-.246.193-.493.364-.643a.725.725 0 0 1 .193-.139c.117-.064.235-.075.332-.032 1.22.407 2.773.214 4.272-.535 1.907-.964 3.18-2.913 3.16-4.84-.022-1.757-.964-2.474-3.267-2.496-2.934.01-5.675-.567-5.718-4.894-.032-3.555 1.81-7.26 4.744-9.595l-.032-3.48c0-.428.257-.9.589-1.07l1.98-1.264c.322-.161.6.043.6.46l.033 3.48c1.456-.578 2.72-.738 3.865-.47.247.064.364.406.257.802l-.77 3.084a1.372 1.372 0 0 1-.354.622.825.825 0 0 1-.203.15c-.108.053-.204.064-.3.053-.525-.118-1.767-.385-3.727.6-2.056 1.038-2.773 2.827-2.763 4.155.022 1.585.825 2.066 3.63 2.11 3.738.064 5.344 1.691 5.387 5.45.053 3.684-1.917 7.657-4.937 10.077zm21.18-5.794c0 .322-.042.621-.31.771l-10.216 6.211c-.267.161-.482.022-.482-.3V99.29c0-.321.193-.492.46-.653l10.067-6.018c.268-.16.482-.022.482.3zm7.026-58.993L70.89 59.86c-4.765 2.784-8.278 5.911-8.288 11.662v47.107c0 3.437 1.392 5.665 3.523 6.318a12.81 12.81 0 0 1-2.12.204c-2.239 0-4.445-.61-6.383-1.757L17.219 99.408c-3.951-2.345-6.403-6.725-6.403-11.426V40.007c0-4.7 2.452-9.08 6.403-11.426L57.634 4.594a12.555 12.555 0 0 1 6.382-1.756c2.238 0 4.444.61 6.382 1.756l40.415 23.987c3.33 1.981 5.579 5.397 6.21 9.242-1.36-2.86-4.38-3.63-7.902-1.574z\"></path> </svg>"
+    }
+  ]
+}
