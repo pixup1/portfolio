@@ -157,13 +157,13 @@
       "technologies": ["cpp", "python"]
     },
     {
-      "name": "ADE Planning",
+      "name": "ADS Planner",
       "type": "academic",
       "year_start": 2024,
       "year_end": 2025,
       "link": "https://github.com/Ecnama/ADSPlanner",
       "description": "Software for assigning students to department discovery sessions",
-      "long_description": "ADE Planning is software designed to assign INSA students to three department discovery sessions. It was developed as part of a third-year project, using R with the Shiny library for the graphical interface.",
+      "long_description": "ADS Planner is software designed to assign INSA students to three department discovery sessions. It was developed as part of a third-year project, using R with the Shiny library for the graphical interface.",
       "technologies": ["r"]
     }
   ],

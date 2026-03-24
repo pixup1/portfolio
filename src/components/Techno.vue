@@ -21,16 +21,19 @@ const positionViewport = () => {
   const viewportWidth = window.innerWidth;
   const viewportHeight = window.innerHeight;
 
+  const bodyWidth = document.body.clientWidth;
+  const bodyHeight = document.body.clientHeight;
+
   const tooltip = document.getElementById("tooltip-text-" + uniqueId);
   const rect = tooltip?.getBoundingClientRect();
 
   if (rect && tooltip) {
-    if (rect.right > viewportWidth || props.tooltip_left) {
+    if (rect.right > viewportWidth || rect.right > bodyWidth || props.tooltip_left) {
       tooltip.classList.add('left');
     } else if (rect.left < 0) {
       tooltip.classList.remove('left');
     }
-    if (rect.bottom > viewportHeight || props.tooltip_up) {
+    if (rect.bottom > viewportHeight || rect.bottom > bodyHeight || props.tooltip_up) {
       tooltip.classList.add('up');
     } else if (rect.top < 0) {
       tooltip.classList.remove('up');
@@ -94,6 +97,13 @@ onMounted(() => {
   /* Standard syntax */
   pointer-events: none;
   transition: opacity ease .25s;
+}
+
+@media (max-width: 900px) {
+  .tooltiptext {
+    width: 8rem;
+    font-size: 1rem;
+  }
 }
 
 .tooltiptext.left {

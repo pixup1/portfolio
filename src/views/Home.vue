@@ -168,7 +168,7 @@ onUnmounted(() => {
 .top-title {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   padding: 0.5rem;
   font-size: 2.5rem;
   font-weight: 600;

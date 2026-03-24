@@ -157,13 +157,13 @@
       "technologies": ["cpp", "python"]
     },
     {
-      "name": "ADE Planning",
+      "name": "ADS Planner",
       "type": "academic",
       "year_start": 2024,
       "year_end": 2025,
       "link": "https://github.com/Ecnama/ADSPlanner",
       "description": "Logiciel de répartition d'étudiants dans des sessions de découverte de départements",
-      "long_description": "ADE Planning est un logiciel ayant pour but d'assigner les étudiants de l'INSA sur trois sessions de découverte de départements. Il a été réalisé dans le cadre du projet de 3ème année. Il a été réalisé en R avec la librairie Shiny pour l'interface graphique.",
+      "long_description": "ADS Planner est un logiciel ayant pour but d'assigner les étudiants de l'INSA sur trois sessions de découverte de départements. Il a été réalisé dans le cadre du projet de 3ème année. Il a été réalisé en R avec la librairie Shiny pour l'interface graphique.",
       "technologies": ["r"]
     }
   ],

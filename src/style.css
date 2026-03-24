@@ -23,6 +23,7 @@ body {
   color: var(--text);
   background-color: var(--bg-1);
   font-size: 1.2rem;
+  overflow-x: clip;
 }
 
 .icon-btn {
