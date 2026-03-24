@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import data from '@/assets/data-fr.json';
+import { localizedData as data } from '@/utils/locale';
 import { type Project } from '@/types/project';
 import Techno from './Techno.vue';
 

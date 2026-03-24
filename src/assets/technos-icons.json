@@ -1,152 +1,4 @@
 {
-  "it_projects": [
-    {
-      "name": "Cacabake",
-      "type": "personal",
-      "year_start": 2024,
-      "year_end": 2024,
-      "link": "https://github.com/InsaLan/cacabake",
-      "description": "Application pour jouer des vidéos pré-rendues dans un terminal",
-      "long_description": "Cacabake est une application terminal qui peut pré-calculer des vidéos dans un format de texte pré-rendu grace à libcaca. Elle peut ensuite lire ces vidéos dans un terminal sans aucun coût de performance associé au décodage vidéo. Elle a été créée pour afficher des animations sur les serveurs de l'InsaLan sans compromettre les performances.",
-      "technologies": ["rust"]
-    },
-    {
-      "name": "BMC",
-      "type": "personal",
-      "year_start": 2025,
-      "year_end": 2025,
-      "link": "https://github.com/pixup1/BMC-App",
-      "description": "Application Android permettant de contrôler un objet virtuel dans Blender à l'aide de capteurs de mouvement",
-      "long_description": "Blender Motion Control est une application Android qui utilise les capteurs de mouvement d'un smartphone pour contrôler un objet dans le logicicel de modélisation 3D Blender. Une mise à jour implémentant le support de ARCore pour un suivi de mouvement plus précis était prévue, mais est actuellement en pause.",
-      "technologies": ["kotlin", "cpp", "python"]
-    },
-    {
-      "name": "Big",
-      "type": "personal",
-      "year_start": 2024,
-      "year_end": 2024,
-      "link": "https://github.com/pixup1/big",
-      "description": "Application de terminal pour afficher du texte en grand avec divers effets",
-      "long_description": "Big est une application de terminal qui peut afficher du texte en grand avec différents effets, dans différents modes d'affichages et à différentes vitesses. Elle a une interface de ligne de commande assez complète avec de nombreuses options.",
-      "technologies": ["rust"]
-    },
-    {
-      "name": "FlutterInk",
-      "type": "academic",
-      "year_start": 2025,
-      "year_end": 2026,
-      "link": "https://flutterink.hver.net",
-      "description": "Portage d'une application de prise de notes en Flutter",
-      "long_description": "Lors de ce projet réalisé en quatrième année à l'INSA, nous avons porté une application de prise de notes écrite en C# vers Flutter. J'ai aussi mis à jour et renforcé la sécurité du serveur écrit en NodeJS. Enfin, j'ai créé une interface web de gestion de la base de données en Nuxt.",
-      "technologies": ["flutter", "nodejs", "nuxt"]
-    },
-    {
-      "name": "Portfolio",
-      "type": "personal",
-      "year_start": 2026,
-      "year_end": 2026,
-      "link": "https://github.com/pixup1/portfolio",
-      "description": "Le site sur lequel vous êtes actuellement",
-      "long_description": "Ce portfolio présente mes projets et compétences, à la fois en programmation et an modélisation/animation 3D.",
-      "technologies": ["vuejs", "html", "css"]
-    },
-    {
-      "name": "Langate 3000",
-      "type": "community",
-      "year_start": 2024,
-      "year_end": 2026,
-      "link": "https://github.com/InsaLan/langate3000",
-      "description": "Portail captif pour le réseau de l'InsaLan",
-      "long_description": "La Langate 3000 est une réécriture complète du portail captif de l'InsaLan. Elle a pour but de permettre aux joueurs de se connecter au réseau par une interface web. Je me suis principalement occupé de Netcontrol, l'API (FastAPI Python) de gestion des connexions réseau, qui interface avec le pare-feu du routeur via nftables.",
-      "technologies": ["django", "vuejs", "python", "html", "css", "tailwind"]
-    },
-    {
-      "name": "insalan.fr",
-      "type": "community",
-      "year_start": 2025,
-      "year_end": 2026,
-      "link": "https://github.com/InsaLan/infra-insalan.fr",
-      "description": "Site web de l'InsaLan",
-      "long_description": "Le site web de l'InsaLan, qui présente l'association, permet aux joueurs de s'inscrire à l'événement, et a des outils pour gérer les tournois. J'ai principalement travaillé sur le front-end du site, que j'ai passé de Tailwind CSS au CSS pur en même temps que j'ai refait le design.",
-      "technologies": ["django", "vuejs", "html", "css"]
-    },
-    {
-      "name": "TMT2",
-      "type": "community",
-      "year_start": 2025,
-      "year_end": 2026,
-      "link": "https://github.com/InsaLan/tmt2",
-      "description": "Application web de gestion de tournois Counter-Strike 2",
-      "long_description": "Tournament Match Tracker 2 est une interface web permettant de gérer des tournois de Counter Strike 2 dont l'InsaLan se sert. Nous y avons ajouté la capacité de suivre les statistiques des joueurs, et je me suis surout occupé du frontend associé à cette fonctionnalité.",
-      "technologies": ["typescript", "solidjs", "html", "tailwind"]
-    },
-    {
-      "name": "Taquin",
-      "type": "academic",
-      "year_start": 2025,
-      "year_end": 2025,
-      "description": "Jeu de taquin en Angular",
-      "long_description": "Ce projet de jeu de taquin a été réalisé à l'occasion du projet de Web 2 en 4ème année à l'INSA Rennes. Il comprend aussi un backend rudimentaire en Spring Boot.",
-      "technologies": ["angular", "java"]
-    },
-    {
-      "name": "My Games List",
-      "type": "academic",
-      "year_start": 2026,
-      "year_end": 2026,
-      "link": "https://github.com/iwen29/INSA_MyGamesList_20252026",
-      "description": "Application de démonstration listant les jeux vidéo d'une base de données",
-      "long_description": "Cette application Android a été réalisée avec Jetpack Compose dans le cadre du module d'ouvertue de Programmation Mobile de 4ème année à l'INSA Rennes. Elle liste les jeux d'une base de données, permettant de les filtrer et de les afficher de différentes façons.",
-      "technologies": ["kotlin"]
-    },
-    {
-      "name": "mPNGp",
-      "type": "academic",
-      "year_start": 2026,
-      "year_end": 2026,
-      "link": "https://github.com/pixup1/mPNGp",
-      "description": "Parseur de fichiers MiniPNG",
-      "long_description": "Ce projet de parseur de fichiers MiniPNG a été réalisé dans le cadre du cours de Programmation Sécurisée de 4ème année à l'INSA Rennes.",
-      "technologies": ["rust"]
-    },
-    {
-      "name": "RGBaie",
-      "type": "community",
-      "year_start": 2024,
-      "year_end": 2026,
-      "description": "Système de diagnostic réseau utilisant une bande LED",
-      "long_description": "La RGBaie est un projet de monitoring réseau par bande LED de l'InsaLan. Elle permet de diagnostiquer des problèmes courants du réseau tels qu'une absence de connexion internet, un problème de communication avec des VPNs, le statut de certains composants logiciels... Tout cela par un langage simple de bandes colorées. Le projet se compose d'un code Arduino pour une carte ESP32 qui contrôle la bande LED, et d'un contrôleur Python qui fait les diagnostics et communique avec l'ESP32.",
-      "technologies": ["cpp", "python"]
-    },
-    {
-      "name": "Plans switches",
-      "type": "community",
-      "year_start": 2024,
-      "year_end": 2024,
-      "description": "Template Typst avancé et flexible permettant de réaliser des plans de switches réseau facilement",
-      "long_description": "Ce projet a été réalisé pour permettre aux responsables réseau de l'InsaLan de facilement réaliser des beaux plans de switches réseau pour s'organiser.",
-      "technologies": ["typst"]
-    },
-    {
-      "name": "Script switches",
-      "type": "community",
-      "year_start": 2024,
-      "year_end": 2024,
-      "link": "https://github.com/InsaLan/switchs",
-      "description": "Script Python pour configurer plusieurs switches réseau automatiquement via Telnet",
-      "long_description": "Ce projet consiste en un ensemble de scripts Python qui permettent de configurer plusieurs switches réseau de l'InsaLan automatiquement via Telnet. J'ai participé notamment à un petit refactoring et j'ai ajouté un script pour configurer des switches de la marque Brocade.",
-      "technologies": ["python"]
-    },
-    {
-      "name": "Scripts réseau",
-      "type": "community",
-      "year_start": 2024,
-      "year_end": 2025,
-      "description": "Scripts de configuration pour le réseau et le pare-feu de l'InsaLan",
-      "long_description": "Cet ensemble de scripts permet de définir les interfaces réseau et les règles de pare-feu nftables de l'InsaLan. J'ai écrit plusieurs de ces scripts, notamment ceux ayant pour but de diriger le trafic réseau vers les différents upstreams de l'InsaLan et ceux permettant de bloquer l'accès à certains sites web. J'ai aussi écrit un script Python qui affiche différentes informations sur les baux DHCP actifs sur la tête de réseau.",
-      "technologies": ["bash", "python"]
-    }
-  ],
   "technos": [
     {
       "id": "rust",
@@ -255,6 +107,12 @@
       "name": "Bash",
       "description": "Interpréteur de commandes et langage de script pour les systèmes Unix",
       "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8cf293\" d=\"M112.205 26.129 71.8 2.142A15.326 15.326 0 0 0 64.005 0c-2.688 0-5.386.717-7.796 2.152L15.795 26.14C10.976 28.999 8 34.289 8 40.018v47.975c0 5.729 2.967 11.019 7.796 13.878L56.2 125.858A15.193 15.193 0 0 0 63.995 128a15.32 15.32 0 0 0 7.796-2.142l40.414-23.987c4.819-2.86 7.796-8.16 7.796-13.878V40.007c0-5.718-2.967-11.019-7.796-13.878zm-31.29 74.907.063 3.448c0 .418-.267.889-.588 1.06l-2.046 1.178c-.321.16-.6-.032-.6-.45l-.032-3.394c-1.745.728-3.523.9-4.647.45-.214-.086-.31-.397-.225-.761l.739-3.116c.064-.246.193-.493.364-.643a.725.725 0 0 1 .193-.139c.117-.064.235-.075.332-.032 1.22.407 2.773.214 4.272-.535 1.907-.964 3.18-2.913 3.16-4.84-.022-1.757-.964-2.474-3.267-2.496-2.934.01-5.675-.567-5.718-4.894-.032-3.555 1.81-7.26 4.744-9.595l-.032-3.48c0-.428.257-.9.589-1.07l1.98-1.264c.322-.161.6.043.6.46l.033 3.48c1.456-.578 2.72-.738 3.865-.47.247.064.364.406.257.802l-.77 3.084a1.372 1.372 0 0 1-.354.622.825.825 0 0 1-.203.15c-.108.053-.204.064-.3.053-.525-.118-1.767-.385-3.727.6-2.056 1.038-2.773 2.827-2.763 4.155.022 1.585.825 2.066 3.63 2.11 3.738.064 5.344 1.691 5.387 5.45.053 3.684-1.917 7.657-4.937 10.077zm21.18-5.794c0 .322-.042.621-.31.771l-10.216 6.211c-.267.161-.482.022-.482-.3V99.29c0-.321.193-.492.46-.653l10.067-6.018c.268-.16.482-.022.482.3zm7.026-58.993L70.89 59.86c-4.765 2.784-8.278 5.911-8.288 11.662v47.107c0 3.437 1.392 5.665 3.523 6.318a12.81 12.81 0 0 1-2.12.204c-2.239 0-4.445-.61-6.383-1.757L17.219 99.408c-3.951-2.345-6.403-6.725-6.403-11.426V40.007c0-4.7 2.452-9.08 6.403-11.426L57.634 4.594a12.555 12.555 0 0 1 6.382-1.756c2.238 0 4.444.61 6.382 1.756l40.415 23.987c3.33 1.981 5.579 5.397 6.21 9.242-1.36-2.86-4.38-3.63-7.902-1.574z\"></path> </svg>"
+    },
+    {
+      "id": "r",
+      "name": "R",
+      "description": "Langage de programmation de haut niveau spécialisé dans les mathématiques et les statistiques",
+      "icon": "<svg viewBox=\"0 0 128 128\"> <path fill=\"#8c95f2\" d=\"M64 14.6465v.002c-35.346 0-64 19.1902-64 42.8632 0 20.764 22.0464 38.0766 51.3164 42.0176v-12.83c-15.55-4.89-26.166-14.6943-26.166-25.9923 0-16.183 21.7795-29.3027 48.6465-29.3027 26.866 0 46.6914 8.9748 46.6914 29.3027 0 10.486-5.2715 17.9507-14.0645 22.7207 1.204.908 2.2184 2.073 2.9024 3.42l.3886.6543C121.0248 79.772 128 69.1888 128 57.5098c0-23.672-28.654-42.8633-64-42.8633zM52.7363 41.2637v72.084l21.834-.0098-.0039-28.2188h5.8613c1.199 0 1.7167.3481 2.9297 1.3301 1.454 1.177 3.8164 5.2383 3.8164 5.2383l11.5371 21.666 24.6739-.0097-15.2657-25.7403a8.388 8.388 0 0 0-1.4199-2.041c-.974-1.036-2.3255-1.8227-3.1055-2.2188-2.249-1.1375-6.12-2.3076-6.123-2.3085 0 0 19.08-1.4151 19.08-20.4141 0-18.999-19.9706-19.3574-19.9706-19.3574H52.7363zm22.0176 15.627 13.2188.0077s6.123-.3302 6.123 6.0098c0 6.216-6.123 6.2344-6.123 6.2344l-13.2247.0039.006-12.2559zm9.3457 32.6366c-2.612.257-5.3213.411-8.1133.463l.002 9.6288a88.362 88.362 0 0 0 12.4746-2.4902l-.502-.9414c-.68-1.268-1.3472-2.5426-2.0332-3.8066a41.01 41.01 0 0 0-1.828-2.8516v-.002z\"></path> </svg>"
     }
   ]
 }

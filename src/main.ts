@@ -1,4 +1,5 @@
 import "./style.css";
+import "./utils/gradient-animation";
 
 import { createApp } from "vue";
 import App from "./App.vue";

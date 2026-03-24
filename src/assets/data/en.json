@@ -1,0 +1,267 @@
+{
+  "it_projects": [
+    {
+      "name": "Cacabake",
+      "type": "personal",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/InsaLan/cacabake",
+      "description": "Application for playing pre-rendered videos in a terminal",
+      "long_description": "Cacabake is a terminal application that can precompute videos into a pre-rendered text format using libcaca. It can then play these videos in a terminal with no performance cost related to video decoding. It was created to display animations on InsaLan servers without compromising performance.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "BMC",
+      "type": "personal",
+      "year_start": 2025,
+      "year_end": 2025,
+      "link": "https://github.com/pixup1/BMC-App",
+      "description": "Android application for controlling a virtual object in Blender using motion sensors",
+      "long_description": "Blender Motion Control is an Android application that uses a smartphone's motion sensors to control an object in the 3D modeling software Blender. An update implementing ARCore support for more accurate motion tracking was planned, but is currently on hold.",
+      "technologies": ["kotlin", "cpp", "python"]
+    },
+    {
+      "name": "Big",
+      "type": "personal",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/pixup1/big",
+      "description": "Terminal application for displaying large text with various effects",
+      "long_description": "Big is a terminal application that can display large text with different effects, in different display modes, and at different speeds. It has a fairly complete command-line interface with many options.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "FlutterInk",
+      "type": "academic",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://flutterink.hver.net",
+      "description": "Port of a note-taking application to Flutter",
+      "long_description": "During this project carried out in my fourth year at INSA, we ported a note-taking application written in C# to Flutter. I also updated and strengthened the security of the NodeJS server. Finally, I created a Nuxt web interface to manage the database.",
+      "technologies": ["flutter", "nodejs", "nuxt"]
+    },
+    {
+      "name": "Portfolio",
+      "type": "personal",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/pixup1/portfolio",
+      "description": "The website you are currently viewing",
+      "long_description": "This portfolio showcases my projects and skills, both in programming and in 3D modeling/animation.",
+      "technologies": ["vuejs", "html", "css"]
+    },
+    {
+      "name": "Langate 3000",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/langate3000",
+      "description": "Captive portal for the InsaLan network",
+      "long_description": "Langate 3000 is a complete rewrite of InsaLan's captive portal. Its goal is to let players connect to the network through a web interface. I mainly worked on Netcontrol, the network connection management API (Python FastAPI), which interfaces with the router firewall via nftables.",
+      "technologies": ["django", "vuejs", "python", "html", "css", "tailwind"]
+    },
+    {
+      "name": "insalan.fr",
+      "type": "community",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/infra-insalan.fr",
+      "description": "InsaLan website",
+      "long_description": "InsaLan's website presents the organization, lets players register for the event, and includes tools to manage tournaments. I mainly worked on the site's front end, migrating it from Tailwind CSS to plain CSS while redesigning it.",
+      "technologies": ["django", "vuejs", "html", "css"]
+    },
+    {
+      "name": "TMT2",
+      "type": "community",
+      "year_start": 2025,
+      "year_end": 2026,
+      "link": "https://github.com/InsaLan/tmt2",
+      "description": "Web application for managing Counter-Strike 2 tournaments",
+      "long_description": "Tournament Match Tracker 2 is a web interface used by InsaLan to manage Counter-Strike 2 tournaments. We added the ability to track player statistics, and I mainly worked on the front end related to that feature.",
+      "technologies": ["typescript", "solidjs", "html", "tailwind"]
+    },
+    {
+      "name": "Taquin",
+      "type": "academic",
+      "year_start": 2025,
+      "year_end": 2025,
+      "description": "Sliding puzzle game in Angular",
+      "long_description": "This sliding puzzle game project was developed as part of the fourth-year Web 2 project at INSA Rennes. It also includes a basic Spring Boot backend.",
+      "technologies": ["angular", "java"]
+    },
+    {
+      "name": "My Games List",
+      "type": "academic",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/iwen29/INSA_MyGamesList_20252026",
+      "description": "Demo application listing video games from a database",
+      "long_description": "This Android application was built with Jetpack Compose as part of the fourth-year Mobile Programming elective at INSA Rennes. It lists games from a database, allowing them to be filtered and displayed in different ways.",
+      "technologies": ["kotlin"]
+    },
+    {
+      "name": "mPNGp",
+      "type": "academic",
+      "year_start": 2026,
+      "year_end": 2026,
+      "link": "https://github.com/pixup1/mPNGp",
+      "description": "MiniPNG file parser",
+      "long_description": "This MiniPNG file parser project was developed as part of the fourth-year Secure Programming course at INSA Rennes.",
+      "technologies": ["rust"]
+    },
+    {
+      "name": "RGBaie",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2026,
+      "description": "Network diagnostic system using an LED strip",
+      "long_description": "RGBaie is an InsaLan network monitoring project based on an LED strip. It can diagnose common network issues such as no internet connection, communication problems with VPNs, and the status of certain software components, all through a simple language of colored bands. The project consists of Arduino code for an ESP32 board that controls the LED strip, and a Python controller that runs diagnostics and communicates with the ESP32.",
+      "technologies": ["cpp", "python"]
+    },
+    {
+      "name": "Plans switches",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2024,
+      "description": "Advanced and flexible Typst template for easily creating network switch diagrams",
+      "long_description": "This project was created to help InsaLan network administrators easily produce clean network switch diagrams for planning and organization.",
+      "technologies": ["typst"]
+    },
+    {
+      "name": "Script switches",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2024,
+      "link": "https://github.com/InsaLan/switchs",
+      "description": "Python script for automatically configuring multiple network switches via Telnet",
+      "long_description": "This project consists of a set of Python scripts used to automatically configure multiple InsaLan network switches via Telnet. I contributed a small refactor and added a script to configure Brocade switches.",
+      "technologies": ["python"]
+    },
+    {
+      "name": "Scripts réseau",
+      "type": "community",
+      "year_start": 2024,
+      "year_end": 2025,
+      "description": "Configuration scripts for InsaLan's network and firewall",
+      "long_description": "This set of scripts defines InsaLan's network interfaces and nftables firewall rules. I wrote several of these scripts, especially those used to route network traffic to InsaLan's various upstreams and those that block access to certain websites. I also wrote a Python script that displays information about active DHCP leases on the network head-end.",
+      "technologies": ["bash", "python"]
+    },
+    {
+      "name": "Tortue Kaizen",
+      "type": "academic",
+      "year_start": 2025,
+      "year_end": 2025,
+      "link": "https://github.com/pixup1/tpinfographique",
+      "description": "Animation created with the SFML library",
+      "long_description": "This animation, telling the story of a sea turtle that wants to become a land turtle, was created as part of the fourth-year computer graphics elective at INSA Rennes. It was built from an SFML project template. I animated the turtle in Blender, exported the animation with a Python script, and applied it using a C++ module added to the project. We also covered the basics of GLSL shaders.",
+      "technologies": ["cpp", "python"]
+    },
+    {
+      "name": "ADE Planning",
+      "type": "academic",
+      "year_start": 2024,
+      "year_end": 2025,
+      "link": "https://github.com/Ecnama/ADSPlanner",
+      "description": "Software for assigning students to department discovery sessions",
+      "long_description": "ADE Planning is software designed to assign INSA students to three department discovery sessions. It was developed as part of a third-year project, using R with the Shiny library for the graphical interface.",
+      "technologies": ["r"]
+    }
+  ],
+  "technos": [
+    {
+      "id": "rust",
+      "name": "Rust",
+      "description": "Modern, fast, and secure systems programming language"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "description": "Modern programming language derived from Java"
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "description": "Powerful, high-performance systems programming language"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "description": "Versatile high-level programming language"
+    },
+    {
+      "id": "nodejs",
+      "name": "NodeJS",
+      "description": "Server-side JavaScript runtime environment"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "description": "Dart framework for cross-platform application development"
+    },
+    {
+      "id": "vuejs",
+      "name": "VueJS",
+      "description": "Modern JavaScript framework for building user interfaces"
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "description": "Standard markup language for creating web pages"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "description": "Style language used to define the presentation of an HTML document"
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "description": "High-level Python web framework for backend development"
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "description": "Utility-first CSS framework for rapidly building custom interfaces"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "description": "JavaScript superset that adds static types"
+    },
+    {
+      "id": "solidjs",
+      "name": "SolidJS",
+      "description": "Reactive JavaScript framework focused on performance and simplicity"
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "description": "JavaScript framework by Google focused on scalability"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "description": "Versatile object-oriented programming language"
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "description": "VueJS framework for full-stack web application development"
+    },
+    {
+      "id": "typst",
+      "name": "Typst",
+      "description": "Typesetting language comparable to a modern version of LaTeX"
+    },
+    {
+      "id": "bash",
+      "name": "Bash",
+      "description": "Command interpreter and scripting language for Unix systems"
+    },
+    {
+      "id": "r",
+      "name": "R",
+      "description": "High-level programming language specialized in mathematics and statistics"
+    }
+  ]
+}

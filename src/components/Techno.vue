@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import data from '@/assets/data-fr.json';
+import { localizedData as data } from '@/utils/locale';
+import technos from '@/assets/technos-icons.json';
 import { getCurrentInstance, onMounted } from 'vue';
 
 interface Props {
@@ -10,35 +11,50 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const language = data.technos.find((l) => l.id === props.id);
+const language = data.technos.find((l: { id: string; }) => l.id === props.id);
+const icon = technos.technos.find((t) => t.id === props.id)?.icon;
 
 const instance = getCurrentInstance();
 const uniqueId = instance ? instance.uid : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER).toString();
 
-onMounted(() => {
-  const bodyWidth = document.body.clientWidth;
-  const bodyHeight = document.body.clientHeight;
+const positionViewport = () => {
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
 
-  const tooltip = document.getElementById("tooltip-" + uniqueId);
+  const tooltip = document.getElementById("tooltip-text-" + uniqueId);
   const rect = tooltip?.getBoundingClientRect();
 
   if (rect && tooltip) {
-    if (rect.right > bodyWidth) {
-      tooltip.classList.add("left");
+    if (rect.right > viewportWidth || props.tooltip_left) {
+      tooltip.classList.add('left');
+    } else if (rect.left < 0) {
+      tooltip.classList.remove('left');
     }
-    if (rect.bottom > bodyHeight) {
-      tooltip.classList.add("up");
+    if (rect.bottom > viewportHeight || props.tooltip_up) {
+      tooltip.classList.add('up');
+    } else if (rect.top < 0) {
+      tooltip.classList.remove('up');
     }
+  }
+}
+
+onMounted(() => {
+  const tooltip = document.getElementById('tooltip-' + uniqueId);
+
+  if (tooltip) {
+    tooltip.addEventListener('mouseover', () => { positionViewport() })
+    positionViewport();
   }
 })
 </script>
 
 <template>
-  <div v-if="language !== undefined && language.icon !== undefined" :aria-label="language.name" class="tooltip"
-    style="width: 1.8rem; height: 1.8rem;">
+  <div :id="'tooltip-' + uniqueId" v-if="language !== undefined && icon !== undefined" :aria-label="language.name"
+    class="tooltip" style="width: 1.8rem; height: 1.8rem;">
     <!-- Icons colors are picked by varying the hue in hsl(hue, 80%, 75%) -->
-    <div style="width: 100%; height: 100%" v-html="language.icon" />
-    <div :id="'tooltip-' + uniqueId" :class="['tooltiptext', { left: props.tooltip_left }, { up: props.tooltip_up }]">
+    <div style="width: 100%; height: 100%" v-html="icon" />
+    <div :id="'tooltip-text-' + uniqueId"
+      :class="['tooltiptext', { left: props.tooltip_left }, { up: props.tooltip_up }]">
       <!-- TODO: fix overflow on the right -->
       <div style="font-weight: 700">
         {{ language.name }}

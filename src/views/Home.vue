@@ -5,6 +5,7 @@ import type { Project } from '@/types/project';
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import KeyboardDoubleArrowDown from '@/assets/icons/keyboard_double_arrow_down.svg';
+import { t } from '@/utils/locale';
 
 const route = useRoute();
 
@@ -112,7 +113,7 @@ onUnmounted(() => {
     </span>
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
       <span class="appear-opacity" style="font-size: clamp(2.5rem, 5vw, 3rem); font-weight: 500; line-height: 1;">
-        Portfolio
+        {{ t("Portfolio") }}
       </span>
       <div id="title" class="appear-weight" style="font-size: clamp(3rem, 14vw, 12rem); line-height: 1;">
         Hector Vernet
@@ -126,35 +127,36 @@ onUnmounted(() => {
     Hector Vernet
   </div>
   <div class="body-pad">
-    <h1>Contact</h1>
-    Email : <a class="link" :href="`mailto:${decodedEmail}`">{{ decodedEmail }}</a><br>
-    Github : <a class="link" href="https://github.com/pixup1">pixup1</a><br>
-    Instagram : <a class="link" href="https://instagram.com/hctvrn">hctvrn</a><br>
-    LinkedIn : <a class="link" href="https://www.linkedin.com/in/hector-vernet-589a3b251/">Hector Vernet</a>
+    <h1> {{ t("À propos") }} </h1>
+    {{ t("Email :") }} <a class="link" :href="`mailto:${decodedEmail}`">{{ decodedEmail }}</a><br>
+    {{ t("Github :") }} <a class="link" href="https://github.com/pixup1">pixup1</a><br>
+    {{ t("Instagram :") }} <a class="link" href="https://instagram.com/hctvrn">hctvrn</a><br>
+    {{ t("LinkedIn :") }} <a class="link" href="https://www.linkedin.com/in/hector-vernet-589a3b251/">Hector Vernet</a>
   </div>
   <div style="text-align: center; display: flex; justify-content: space-evenly; margin-top: 2rem;">
     <router-link to="/info" :class="['switch-text left', { active: activeMode === 'info' }]" v-on:click="waitAndRemove">
-      Info
+      {{ t("Info") }}
     </router-link>
     <router-link to="/3d" :class="['switch-text right', { active: activeMode === '3d' }]" v-on:click="waitAndRemove">
-      3D
+      {{ t("3D") }}
     </router-link>
   </div>
-  <h1 class="body-pad">Projets</h1>
+  <h1 class="body-pad"> {{ t("Projets") }} </h1>
   <div class="half-stack">
     <div :class="['body-pad half-body left', { active: activeMode === 'info' }]">
       <info-projects @open-project="(it: Project) => { modal_project = it }" />
     </div>
     <div :class="['body-pad half-body right', { active: activeMode === '3d' }]">
+      <!-- TODO: fjx this popping out instantly instead of fading to the rigt-->
       <div
         style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 50vh; text-align: center;">
         Soon&trade;
       </div>
-      <h1>Modèles 3D</h1>
+      <h1> {{ t("Modèles 3D") }} </h1>
       <p>
-        Des modèles 3D issus de mes projets sont en vente sur
+        {{ t("Des modèles 3D issus de mes projets sont en vente sur") }}
         <a class="link" href="https://www.turbosquid.com/Search/Artists/hctvrn">Turbosquid</a>
-        et
+        {{ t("et") }}
         <a class="link" href="https://www.cgtrader.com/designers/hctvrn">cgtrader</a>.
       </p>
     </div>
