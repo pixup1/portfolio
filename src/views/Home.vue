@@ -6,6 +6,11 @@ import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import KeyboardDoubleArrowDown from '@/assets/icons/keyboard_double_arrow_down.svg';
 import { t } from '@/utils/locale';
+import InstagramIcon from '@/assets/icons/instagram.svg';
+import LinkedInIcon from '@/assets/icons/linkedin.svg';
+import GithubIcon from '@/assets/icons/github.svg';
+import EmailIcon from '@/assets/icons/envelope.svg';
+import DiscordIcon from '@/assets/icons/discord.svg';
 
 const route = useRoute();
 
@@ -126,14 +131,37 @@ onUnmounted(() => {
   <div id="top-title" class="hidden top-title">
     Hector Vernet
   </div>
-  <div class="body-pad">
+  <div class="body-pad" style="text-align: justify;">
     <h1> {{ t("À propos") }} </h1>
-    {{ t("Email :") }} <a class="link" :href="`mailto:${decodedEmail}`">{{ decodedEmail }}</a><br>
-    {{ t("Github :") }} <a class="link" href="https://github.com/pixup1">pixup1</a><br>
-    {{ t("Instagram :") }} <a class="link" href="https://instagram.com/hctvrn">hctvrn</a><br>
-    {{ t("LinkedIn :") }} <a class="link" href="https://www.linkedin.com/in/hector-vernet-589a3b251/">Hector Vernet</a>
+    <div style="display: flex; width: 100%; justify-content: space-evenly; margin-bottom: 2.5rem;">
+      <a :href="`mailto:${decodedEmail}`">
+        <EmailIcon class="icon-btn" style="height: 2.4rem" alt="Email" />
+      </a>
+      <a href="https://github.com/pixup1">
+        <GithubIcon class="icon-btn" style="height: 2.4rem" alt="Github " />
+      </a>
+      <a href="https://instagram.com/hctvrn">
+        <InstagramIcon class="icon-btn" style="height: 2.4rem" alt="Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/in/hector-vernet-589a3b251/">
+        <LinkedInIcon class="icon-btn" style="height: 2.4rem" alt="LinkedIn" />
+      </a>
+      <a href="https://discord.com/users/452142895512944671">
+        <DiscordIcon class="icon-btn" style="height: 2.4rem" alt="Discord" />
+      </a>
+    </div>
+    {{ t("Salut ! Je fais du développement informatique de toutes sortes, et de la modélisation / animation 3d.") }}
+    {{ t("Ce site sert à présenter tous mes projets.") }}
+    {{ t("Je suis actuellement étudiant en quatrième année à l'INSA Rennes.") }}
+    <!-- <div class="contact-grid">
+      <div>{{ t("Email :") }} <a class="link" :href="`mailto:${decodedEmail}`">{{ decodedEmail }}</a></div>
+      <div>{{ t("Github :") }} <a class="link" href="https://github.com/pixup1">pixup1</a></div>
+      <div>{{ t("Instagram :") }} <a class="link" href="https://instagram.com/hctvrn">hctvrn</a></div>
+      <div>{{ t("LinkedIn :") }} <a class="link" href="https://www.linkedin.com/in/hector-vernet-589a3b251/">Hector
+          Vernet</a></div>
+    </div> -->
   </div>
-  <div style="text-align: center; display: flex; justify-content: space-evenly; margin-top: 2rem;">
+  <div style="text-align: center; display: flex; justify-content: space-evenly; margin-top: 2.5rem;">
     <router-link to="/info" :class="['switch-text left', { active: activeMode === 'info' }]" v-on:click="waitAndRemove">
       {{ t("Info") }}
     </router-link>
@@ -452,5 +480,18 @@ onUnmounted(() => {
   /* color: var(--text); */
   mask-position: 100% 0%;
   transition: mask-position .6s ease-in-out, filter 250ms ease;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>

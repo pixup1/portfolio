@@ -7,7 +7,7 @@
       "year_end": 2024,
       "link": "https://github.com/InsaLan/cacabake",
       "description": "Application pour jouer des vidéos pré-rendues dans un terminal",
-      "long_description": "Cacabake est une application terminal qui peut pré-calculer des vidéos dans un format de texte pré-rendu grace à libcaca. Elle peut ensuite lire ces vidéos dans un terminal sans aucun coût de performance associé au décodage vidéo. Elle a été créée pour afficher des animations sur les serveurs de l'InsaLan sans compromettre les performances.",
+      "long_description": "Cacabake est une application terminal qui peut pré-calculer des vidéos dans un format de texte pré-rendu grâce à libcaca. Elle peut ensuite lire ces vidéos dans un terminal sans aucun coût de performance associé au décodage vidéo. Elle a été créée pour afficher des animations sur les serveurs de l'InsaLan sans compromettre les performances.",
       "technologies": ["rust"]
     },
     {
@@ -17,7 +17,7 @@
       "year_end": 2025,
       "link": "https://github.com/pixup1/BMC-App",
       "description": "Application Android permettant de contrôler un objet virtuel dans Blender à l'aide de capteurs de mouvement",
-      "long_description": "Blender Motion Control est une application Android qui utilise les capteurs de mouvement d'un smartphone pour contrôler un objet dans le logicicel de modélisation 3D Blender. Une mise à jour implémentant le support de ARCore pour un suivi de mouvement plus précis était prévue, mais est actuellement en pause.",
+      "long_description": "Blender Motion Control est une application Android qui utilise les capteurs de mouvement d'un smartphone pour contrôler un objet dans le logiciel de modélisation 3D Blender. Une mise à jour implémentant le support d'ARCore pour un suivi de mouvement plus précis était prévue, mais est actuellement en pause.",
       "technologies": ["kotlin", "cpp", "python"]
     },
     {
@@ -27,7 +27,7 @@
       "year_end": 2024,
       "link": "https://github.com/pixup1/big",
       "description": "Application de terminal pour afficher du texte en grand avec divers effets",
-      "long_description": "Big est une application de terminal qui peut afficher du texte en grand avec différents effets, dans différents modes d'affichages et à différentes vitesses. Elle a une interface de ligne de commande assez complète avec de nombreuses options.",
+      "long_description": "Big est une application de terminal qui peut afficher du texte en grand avec différents effets, dans différents modes d'affichage et à différentes vitesses. Elle a une interface de ligne de commande assez complète avec de nombreuses options.",
       "technologies": ["rust"]
     },
     {
@@ -47,7 +47,7 @@
       "year_end": 2026,
       "link": "https://github.com/pixup1/portfolio",
       "description": "Le site sur lequel vous êtes actuellement",
-      "long_description": "Ce portfolio présente mes projets et compétences, à la fois en programmation et an modélisation/animation 3D.",
+      "long_description": "Ce portfolio présente mes projets et compétences, à la fois en programmation et en modélisation/animation 3D.",
       "technologies": ["vuejs", "html", "css"]
     },
     {
@@ -77,7 +77,7 @@
       "year_end": 2026,
       "link": "https://github.com/InsaLan/tmt2",
       "description": "Application web de gestion de tournois Counter-Strike 2",
-      "long_description": "Tournament Match Tracker 2 est une interface web permettant de gérer des tournois de Counter Strike 2 dont l'InsaLan se sert. Nous y avons ajouté la capacité de suivre les statistiques des joueurs, et je me suis surout occupé du frontend associé à cette fonctionnalité.",
+      "long_description": "Tournament Match Tracker 2 est une interface web permettant de gérer des tournois de Counter Strike 2 dont l'InsaLan se sert. Nous y avons ajouté la capacité de suivre les statistiques des joueurs, et je me suis surtout occupé du frontend associé à cette fonctionnalité.",
       "technologies": ["typescript", "solidjs", "html", "tailwind"]
     },
     {
@@ -96,7 +96,7 @@
       "year_end": 2026,
       "link": "https://github.com/iwen29/INSA_MyGamesList_20252026",
       "description": "Application de démonstration listant les jeux vidéo d'une base de données",
-      "long_description": "Cette application Android a été réalisée avec Jetpack Compose dans le cadre du module d'ouvertue de Programmation Mobile de 4ème année à l'INSA Rennes. Elle liste les jeux d'une base de données, permettant de les filtrer et de les afficher de différentes façons.",
+      "long_description": "Cette application Android a été réalisée avec Jetpack Compose dans le cadre du module d'ouverture de Programmation Mobile de 4ème année à l'INSA Rennes. Elle liste les jeux d'une base de données, permettant de les filtrer et de les afficher de différentes façons.",
       "technologies": ["kotlin"]
     },
     {
@@ -124,7 +124,7 @@
       "year_start": 2024,
       "year_end": 2024,
       "description": "Template Typst avancé et flexible permettant de réaliser des plans de switches réseau facilement",
-      "long_description": "Ce projet a été réalisé pour permettre aux responsables réseau de l'InsaLan de facilement réaliser des beaux plans de switches réseau pour s'organiser.",
+      "long_description": "Ce projet a été réalisé pour permettre aux responsables réseau de l'InsaLan de facilement réaliser de beaux plans de switches réseau pour s'organiser.",
       "technologies": ["typst"]
     },
     {
@@ -153,7 +153,7 @@
       "year_end": 2025,
       "link": "https://github.com/pixup1/tpinfographique",
       "description": "Animation réalisée avec la bibliothèque SFML",
-      "long_description": "Cette animation racontant l'histoire d'une tortue de mer qui veut devenir une tortue de terre a été réalisée dans le cadre du module d'ouverture d'informatique graphique de 4ème année à l'INSA Rennes. Elle a été réalisée à partir d'un template de projet SFML. J'ai animé la tortue dans Blender puis exporté l'animation avec un script Python et je l'ai appliqué grace à un module C++ ajouté au projet. Nous avons aussi vu les rudiments des shaders GLSL.",
+      "long_description": "Cette animation racontant l'histoire d'une tortue de mer qui veut devenir une tortue de terre a été réalisée dans le cadre du module d'ouverture d'informatique graphique de 4ème année à l'INSA Rennes. Elle a été réalisée à partir d'un template de projet SFML. J'ai animé la tortue dans Blender puis exporté l'animation avec un script Python et je l'ai appliquée grâce à un module C++ ajouté au projet. Nous avons aussi vu les rudiments des shaders GLSL.",
       "technologies": ["cpp", "python"]
     },
     {
@@ -163,7 +163,7 @@
       "year_end": 2025,
       "link": "https://github.com/Ecnama/ADSPlanner",
       "description": "Logiciel de répartition d'étudiants dans des sessions de découverte de départements",
-      "long_description": "ADS Planner est un logiciel ayant pour but d'assigner les étudiants de l'INSA sur trois sessions de découverte de départements. Il a été réalisé dans le cadre du projet de 3ème année. Il a été réalisé en R avec la librairie Shiny pour l'interface graphique.",
+      "long_description": "ADS Planner est un logiciel ayant pour but d'assigner les étudiants de l'INSA sur trois sessions de découverte de départements. Il a été réalisé dans le cadre du projet de 3ème année. Nous avons utilisé le langage R avec la librairie Shiny pour l'interface graphique.",
       "technologies": ["r"]
     }
   ],
@@ -251,7 +251,7 @@
     {
       "id": "typst",
       "name": "Typst",
-      "description": "Langage de typesetting comparable à une version moderne de LateX"
+      "description": "Langage de typesetting comparable à une version moderne de LaTeX"
     },
     {
       "id": "bash",

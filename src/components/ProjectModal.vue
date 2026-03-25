@@ -55,7 +55,7 @@ const close = () => {
         </div>
         <Close class="icon-btn" @click="close()"></Close>
       </div>
-      <a v-if="p.link" class="link" :href="p.link">{{ p.link }}</a>
+      <a v-if="p.link" class="link" style="width: fit-content" :href="p.link">{{ p.link }}</a>
       <div>{{ p.long_description }}</div>
       <div
         style="margin-top: auto; display: flex; flex-direction: row; flex-wrap: wrap; gap: .4rem; justify-content: end;">

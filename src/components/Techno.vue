@@ -45,7 +45,8 @@ onMounted(() => {
   const tooltip = document.getElementById('tooltip-' + uniqueId);
 
   if (tooltip) {
-    tooltip.addEventListener('mouseover', () => { positionViewport() })
+    // tooltip.addEventListener('mouseover', () => { positionViewport() })
+    window.addEventListener('scroll', () => { positionViewport() })
     positionViewport();
   }
 })
